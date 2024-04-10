@@ -23,7 +23,7 @@ public class MusicPlayer extends Application {
     public void start(Stage primaryStage) {
         Button openButton = new Button("Выбрать трек");
         Button playButton = new Button("Играть");
-        Button stopButton = new Button("Пауза");
+        Button stopButton = new Button("Стоп");
         Slider volumeSlider = new Slider(0, 1, 0.5);
         Slider startTimeSlider = new Slider();
         Slider endTimeSlider = new Slider();
